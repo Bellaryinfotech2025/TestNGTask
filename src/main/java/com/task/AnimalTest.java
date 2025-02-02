@@ -22,6 +22,6 @@ public class AnimalTest {
     @Test
     public void testAnimalType() {
         Dog d = new Dog();
-        System.out.println("Animal Type: " + d.getType()); // Expected: "Animal Type: Dog"
+        System.out.println("Animal Type: " + d.getType());
     }
 }

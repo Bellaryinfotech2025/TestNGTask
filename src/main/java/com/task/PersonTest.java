@@ -27,6 +27,6 @@ public class PersonTest {
         Person p = new Person();
         p.setName("John");
         p.setAge(25);
-        System.out.println(p.getDetails()); // Expected: "Name: John, Age: 25"
+        System.out.println(p.getDetails());
     }
 }
