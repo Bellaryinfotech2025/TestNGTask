@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNGSuite">
+    <test name="OOPS Tests">
+        <classes>
+            <class name="com.task.PersonTest"/>
+            <class name="com.task.AnimalTest"/>
+            <class name="com.task.ShapeTest"/>
+            <class name="com.task.VehicleTest"/>
+            <class name="com.task.PaymentTest"/>
+        </classes>
+    </test>
+</suite>
