@@ -17,6 +17,6 @@ public class PaymentTest {
     @Test
     public void testPaymentMethod() {
         Payment p = new CreditCardPayment();
-        System.out.println(p.pay()); // Expected: "Payment done using Credit Card"
+        System.out.println(p.pay());
     }
 }

@@ -5,23 +5,23 @@ package com.task;
 import org.testng.annotations.Test;
 
 class Animal {
-    String type = "Unknown Animal";
+    String type = "Dont Know";
 
     public String getType() {
         return type;
     }
 }
 
-class Dog extends Animal {
-    public Dog() {
-        type = "Dog";
+class Lion extends Animal {
+    public Lion() {
+        type = "Lion";
     }
 }
 
 public class AnimalTest {
     @Test
     public void testAnimalType() {
-        Dog d = new Dog();
-        System.out.println("Animal Type: " + d.getType());
+        Lion l = new Lion();
+        System.out.println("Animal Name: " + l.getType());
     }
 }

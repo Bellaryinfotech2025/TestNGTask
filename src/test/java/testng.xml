@@ -4,9 +4,9 @@
         <classes>
             <class name="com.task.PersonTest"/>
             <class name="com.task.AnimalTest"/>
-            <class name="com.task.ShapeTest"/>
+            <class name="com.task.BankAccountTest"/>
             <class name="com.task.VehicleTest"/>
-            <class name="com.task.PaymentTest"/>
+
         </classes>
     </test>
 </suite>
